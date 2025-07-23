@@ -6,18 +6,56 @@
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/slider.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cerberus</title>
 </head>
 <body>
     <div class="content">
         <header>
-            <img src="/img/burger.svg" alt="">
+            <img class="menuBurger" src="/img/burger.svg" alt="">
             <img class="logoCerberus" src="/img/Logo Restaurante.png" alt="Logo inicio, Cerberus">
         </header>
+
+        <div class="slider">
+           <input type="radio" name="radio-btn" id="radio1" checked>
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+
+            <div class="slides">
+            <div class="slide first">
+                <img src="/img/slides/imagen1.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="/img/slides/imagen2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="/img/slides/imagen3.webp" alt="">
+            </div>
+            </div>
+
+            <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+
+
         <footer>
-            <p>Design and built by <span>Algoryn</span></p>
-            <p>Todos los derechos reservados ©</p>
+            <div class="footer-1"> 
+                <p>Calle <span class="important"> Juan Paullier</span>, Manzana <span class="important">112</span>, Solar <span class="important">7</span>, Montevideo, Uruguay.
+                cerberus@info.com.uy</p>
+                <br>
+                <p>Todos los derechos reservados <span class="important">©</span> </p>
+            </div>
+            
+            <div class="footer-2">
+                <p>Powered by <span>Algoryn</span></p>
+            <div class="redes"> <p>Seguinos</p> </div>
+            <img src="/img/instagram.svg" alt="Logo de instagram, acceso directo"> <img src="/img/facebook.svg" alt="Logo facebook, acceso directo"></div>
+            </div>       
         </footer>
     </div>
     

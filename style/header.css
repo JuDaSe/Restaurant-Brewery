@@ -8,8 +8,8 @@ header{
     justify-content:space-between;
 }
 
-header > img {
-    width: 1.5rem;
+.menuBurger {
+    width: 2rem;
     margin-left: 1rem;
 }
 

@@ -1,6 +1,7 @@
 .logoCerberus{
-    width: 3.5rem;
-    height: 4.4375rem;
+    position: relative;
     border-radius: 100%;
-    margin: 0 auto;
+    width: 3.3rem;
+    height: 3.3rem;
+    margin: 1.1rem;
 }
