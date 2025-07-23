@@ -86,3 +86,14 @@ input [type="password"]{
     margin-top: 1.875rem;
     text-decoration: underline;
 }
+
+.soportePassword{
+    text-align: center;
+    text-decoration: none;
+}
+
+.soportePassword:visited{
+    color: var(--color-variante-neutral);
+    text-decoration: none;
+}
+

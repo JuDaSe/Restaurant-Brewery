@@ -11,7 +11,7 @@ footer{
 }
 
 .content {
-    padding-bottom: 8rem; /* Un poco más que la altura del footer */
+    padding-bottom: 8rem;
 }
 
 footer > p{
