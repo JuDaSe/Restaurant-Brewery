@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/home.css">
     <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="style/menu.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cerberus</title>
 </head>
@@ -17,6 +18,24 @@
             <img class="logoCerberus" src="/img/Logo Restaurante.png" alt="Logo inicio, Cerberus">
         </header>
 
+        <nav class="menu-hidden" id="menu">
+            <ul>
+                <li><a href="#">NOSOTROS</a></li>
+                <li><a href="#">CERVEZAS</a></li>
+                <li><a href="#">LOCALES</a></li>
+                <li><a href="#">PLATOS</a></li>
+                <li><a href="#">CURSOS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+
+            <h3>Descarga nuestra APP</h3>
+            <div class="app">
+                 <img src="/img/PlayStore.svg" alt="logo de la PlayStore, acceso directo">
+                 <img src="/img/App Store.svg" alt="logo de la PlayStore, acceso directo">
+            </div>
+            
+        </nav>
+
         <div class="slider">
            <input type="radio" name="radio-btn" id="radio1" checked>
             <input type="radio" name="radio-btn" id="radio2">
@@ -24,13 +43,13 @@
 
             <div class="slides">
             <div class="slide first">
-                <img src="/img/slides/imagen1.jpg" alt="">
+                <img src="/img/slides/slide1.png" alt="">
             </div>
             <div class="slide">
-                <img src="/img/slides/imagen2.png" alt="">
+                <img src="/img/slides/slide2.png" alt="">
             </div>
             <div class="slide">
-                <img src="/img/slides/imagen3.png" alt="">
+                <img src="/img/slides/slide3.png" alt="">
             </div>
             </div>
 
@@ -42,16 +61,16 @@
         </div>
 
         <section class="cursos">
-            <h2>APRENDÉ CON NUESTROS CURSOS</h2>
+            <h2>APRENDÉ CON NUESTROS <span class="important">CURSOS</span> </h2>
             <p>En nuestra cervecería no solo elaboramos cerveza, también compartimos nuestra pasión. Ofrecemos capacitaciones y un curso completo para quienes deseen iniciarse en el mundo de la cerveza artesanal. Aprenda desde las bases hasta técnicas avanzadas de elaboración, de la mano de cerveceros con experiencia. ¡Convertí tu pasión en conocimiento y empieza a crear tu propia cerveza!</p>
-            <img src="/img/cursos.jpg" alt="">
+            <img class="img" src="/img/cursos.png" alt="">
         </section>
 
         <section class="resumen">
             <h2><span class="important">CERBERUS </span> : Pasión cervecera uruguaya</h2>
-            <p>Cerberus es una cervecería artesanal uruguaya con presencia en varias localidades del país, llevando nuestra identidad y sabor a distintos rincones del Uruguay. Nuestra producción combina calidad, innovación y tradición cervecera, creando estilos únicos que representan nuestra esencia.
+            <p> <span class="important">Cerberus</span>  es una cervecería artesanal uruguaya con presencia en varias localidades del país, llevando nuestra identidad y sabor a distintos rincones del Uruguay. Nuestra producción combina calidad, innovación y tradición cervecera, creando estilos únicos que representan nuestra esencia.
             Con una base sólida en el mercado local, nuestro próximo paso es llevar la cerveza uruguaya al mundo. Estamos trabajando en nuestra expansión internacional para que más personas puedan disfrutar de lo que hacemos con pasión.</p>
-            <img src="/img/cursos.jpg" alt="">
+            <img class="img" src="/img/expansion.png" alt="">
         </section>
 
 
@@ -71,5 +90,6 @@
         </footer>
     </div>
     
+    <script src="js/menu.js"> </script>
 </body>
 </html>

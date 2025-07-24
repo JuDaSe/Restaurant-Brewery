@@ -1,0 +1,49 @@
+.menu-hidden{
+    display: none;
+}
+
+.menu-visible{
+    background-color: var(--color-secundario);
+    display: block;
+    position: absolute;
+    top: 3.7rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: .375rem;
+    padding: .8125rem;
+}
+
+nav li{
+    margin: 1.15rem;
+}
+
+a{
+    color: var(--color-background);
+    text-decoration: none;
+    font-family: var(--textPrimary);
+    font-size: 2.75rem ;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: var(--color-primario);
+}
+
+h3{
+    color: var(--color-background);
+    font-family: var(--textPrimary);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.app{
+    display: flex;
+
+}

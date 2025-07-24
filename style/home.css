@@ -5,3 +5,37 @@
     height: 3.3rem;
     margin: 1.1rem;
 }
+
+img {
+    margin: 0.1875rem;
+}
+
+.cursos > p, h2 {
+    color: var(--color-variante-neutral);
+    font-family: var(--textPrimary);
+    font-weight: semi-bold;
+    margin: 1rem;
+}
+
+.resumen > p, h2 {
+    color: var(--color-variante-neutral);
+    font-family: var(--textPrimary);
+    font-weight: semi-bold;
+    margin: 1rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.img {
+    display: block;
+    width: 100vw;         
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
