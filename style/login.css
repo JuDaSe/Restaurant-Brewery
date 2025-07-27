@@ -38,8 +38,6 @@ input [type="password"]{
 
 .forgetPassword{
     display: flex;
-    position: relative;
-    right: 2.2rem;
 }
 
 .forgetPassword > p{
