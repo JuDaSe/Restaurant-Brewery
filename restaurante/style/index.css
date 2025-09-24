@@ -1,0 +1,192 @@
+/* Logo */
+
+
+.logoCerberus {
+    position: relative;
+    border-radius: 100%;
+    width: 3.3rem;
+    height: 3.3rem;
+    margin: 1.1rem;
+}
+
+.logoCerberus:hover{
+    cursor: pointer;
+}
+
+
+/* ---------------- */
+img {
+    margin: 0.1875rem;
+}
+
+
+
+.cursos>p,
+h2 {
+    color: #641c1c; ;
+    font-family: var(--textPrimary);
+    font-weight: semi-bold;
+    margin: 1rem;
+    
+}
+
+.cursos > p,
+.cursos h2 {
+    color: var(--color-variante-neutral);
+    font-family: var(--textPrimary);
+    font-weight: 600;
+    margin: 1rem;
+    font-size: 2em;
+}
+
+.resumen > p,
+.resumen h2 {
+    color: var(--color-variante-neutral);
+    font-family: var(--textPrimary);
+    font-weight: 600;
+    margin: 1rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+.img {
+    display: block;
+    max-width: 80%;
+    object-fit: contain;
+}
+
+.p-text_information{
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.producto-card {
+    background-color: var(--color-variante-neutral);
+    border-radius: .625rem;
+    box-shadow: var(--shadow);
+    padding: 3rem;
+    text-align: center;
+}
+
+.about-content img{
+    width: 99%;
+    border-radius: .625rem;
+    margin-bottom: 1rem;
+}
+
+/* ------------------- */
+/* Productos */
+
+.product-card {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.product-card p{
+    width: 90%;
+}
+
+.product-card h3{
+    margin-bottom: 1rem;
+    color: var(--color-primario);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    border-radius: .625rem;
+    margin-bottom: 1rem;
+}
+
+/* ------------------- */
+/* Locales */
+
+.locales .locales-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.local-card {
+    background-color: var(--color-variante-neutral);
+    border-radius: .625rem;
+    box-shadow: var(--shadow);
+    padding: 1rem;
+    text-align: center;
+}
+
+.local-card img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    border-radius: .625rem;
+    margin-bottom: 1rem;
+}
+
+/* ------------------- */
+
+/* Formulario */
+section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+}
+section form input, section form textarea{
+    width: 80%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    font-family: var(--textPrimary);
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: var(--color-variante-neutral);
+    color: var(--color-texto-primario);
+    box-shadow: var(--shadow);
+    border: 1px solid var(--color-texto-secundario);
+    resize: none;
+}
+
+section form input:focus, section form textarea:focus{
+    outline: none;
+    border: 2px solid var(--color-primario);
+}
+
+section form button{
+    width: 80%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color-primario);
+    color: var(--color-texto-primario);
+    font-family: var(--textPrimary);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* ------------------- */
+/* Imagenes y textos */
+
+
+section p{
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.2;
+    margin: 0 1rem 1rem 1rem;
+}
+
+.course-list li{
+    list-style: disc;  
+    margin: 0.5rem 0 0.5rem 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: var(--color-variante-neutral);
+    font-weight: 600;
+}

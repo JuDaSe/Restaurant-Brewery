@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/modules/header.css">
+    <link rel="stylesheet" href="style/modules/variables.css">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/modules/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/Logo Restaurante.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+25&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Inicio de Sesión</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/arrow_back.svg" alt=""></a>
+        <h1>Iniciar Sesión</h1>
+    </header>
+    <div class="content">
+        <img class="logo" src="img/Logo Restaurante.png" alt="Logo cerveceria">
+        <div class="formLogin">
+            <form id="form" action="">
+
+                <input type="text" placeholder="Correo electrónico" id="email" name="email" maxlength="32">
+                <input type="password" placeholder="Contraseña" id="passwrd" name="passwrd" maxlength="32">
+                <div class="forgetPassword">
+                    <p> Me olvide la contraseña</p>
+                    <img src="img/Lock.svg" alt="Me olvide la contraseña">
+                </div>
+
+                <div class="buttons">
+                    <button type="button" id="registerUser">Registrarse</button>
+                    <button id="loginUser">Ingresar</button>
+                </div>
+
+            </form>
+
+
+            <a href="#">
+                <p class="soportePassword">¿Necesitas ayuda para ingresar?</p>
+            </a>
+            <a class="ingresoAdmin" href="adminLogin.html">Ingresar como Miembro</a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-1">
+            <p>Calle <span class="important"> Juan Paullier</span>, Manzana <span class="important">112</span>,
+                Solar <span class="important">7</span>, Montevideo, Uruguay.
+                cerberus@info.com.uy</p>
+            <br>
+            <p>Todos los derechos reservados <span class="important">©</span> </p>
+        </div>
+
+        <div class="footer-2">
+            <p>Powered by <span>Algoryn</span></p>
+            <div class="redes">
+                <p>Seguinos</p>
+            </div>
+            <img src="img/instagram.svg" alt="Logo de instagram, acceso directo"> <img src="img/facebook.svg"
+                alt="Logo facebook, acceso directo">
+        </div>
+    </footer>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

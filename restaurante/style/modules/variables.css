@@ -1,0 +1,48 @@
+:root {
+
+    /* Colores */
+    --color-primario: #D9961F;
+    --color-secundario: #A58D6D;
+    --color-terciario: #81986D;
+    --color-variante-neutral: #9B8F80;
+    --color-background: #E9E6E3;
+
+    --color-error: #FF5449;
+
+    /* Texto */
+    --textPrimary: "Roboto", sans-serif;
+    --color-texto-primario: #E9E6E3;
+    --color-texto-secundario: #c5c2c2;
+    --color-texto-terciario: #2c2b2b;
+    
+    
+}
+
+html, body{
+    height: 95%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1;
+    padding: 10%;
+
+
+}
+
+.content h2 {
+    padding: 5% 0;
+} 
+
+
+
+
+

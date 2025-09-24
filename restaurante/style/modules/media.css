@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+    /* .cursosContainer {
+        display: flex;
+        flex-direction: row;
+    }
+    .cursosContainer > img, .cursosContainer p{
+        max-width: 50%;
+        margin: 10px;
+
+    }
+    .resumenContainer{
+        display: flex;
+        flex-direction: row;
+    }
+    .resumenContainer > img, .resumenContainer p{
+        max-width: 50%;
+        margin: 10px; */
+}
+
+
+
+
+@media (min-width: 1024px){
+
+    /* .cursosContainer > img, .cursosContainer p{
+        font-size: large;
+    }
+    .resumenContainer{
+        font-size: large;
+    } */
+
+}
+
+
+
+
+@media (min-width: 1280px){
+
+
+    /* .cursosContainer > img, .cursosContainer p{
+        font-size: x-large;
+    }
+    .resumenContainer{
+        font-size: x-large;
+    } */
+}

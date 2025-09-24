@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerberus - Cerveza Artesanal Uruguaya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/modules/variables.css">
+    <link rel="stylesheet" href="style/modules/footer.css">
+    <link rel="stylesheet" href="style/modules/header.css">
+    <link rel="stylesheet" href="style/index.css">
+   <link rel="stylesheet" href="style/modules/slider.css">
+    <link rel="stylesheet" href="style/modules/menu.css">
+    <link rel="shortcut icon" href="img/Logo Restaurante.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <img class="logoCerberus" id="logo" src="img/Logo Restaurante.png" alt="Logo Cerberus">
+            <nav class="nav-desktop" aria-label="menu principal">
+                <a href="javascript:void(0)" id="loginBtn">INGRESAR</a>
+                <a href="nosotros.html">NOSOTROS</a>
+                <a href="beers.html">CERVEZAS</a>
+                <a href="#">LOCALES</a>
+                <a href="dishes.html">PLATOS</a>
+                <a href="#">CONTACTO</a>
+            </nav>
+            <img class="menuBurger" src="img/burger.svg" alt="menu">
+        </div>
+        <nav class="menu-hidden" id="menu">
+            <ul>
+                <li><a href="javascript:void(0)" id="loginBtn2">INGRESAR</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="beers.html">CERVEZAS</a></li>
+                <li><a href="#">LOCALES</a></li>
+                <li><a href="dishes.html">PLATOS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+            <div class="app">
+                <h3>Descarga nuestra APP</h3>
+                <img src="img/PlayStore.svg" alt="PlayStore">
+                <img src="img/App Store.svg" alt="App Store">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="slider-section">
+            <div class="slider">
+                <input type="radio" name="radio-btn" id="radio1" checked>
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <div class="slides">
+                    <div class="slide first">
+                        <img src="img/slides/slide1.png" alt="Cerveza artesanal">
+                    </div>
+                    <div class="slide">
+                        <img src="img/slides/slide2.png" alt="Fábrica de cerveza">
+                    </div>
+                    <div class="slide">
+                        <img src="img/slides/slide3.png" alt="Bar Cerberus">
+                    </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Nosotros -->
+        <section class="about" id="nosotros">
+            <div class="about-content">
+               <img src="img/nosotros/FabricacionCerveza.avif" alt="Fabricación de cerveza" class="about-img">
+                <div>
+                    <h2>Sobre <span class="important">Cerberus</span></h2>
+                    <p>Somos una cervecería artesanal uruguaya con presencia en varias localidades del país, llevando
+                        nuestra identidad y sabor a distintos rincones del Uruguay. Nuestra producción combina calidad,
+                        innovación y tradición cervecera, creando estilos únicos que representan nuestra esencia.</p>
+                    <p>Con una base sólida en el mercado local, nuestro próximo paso es llevar la cerveza uruguaya al
+                        mundo. Estamos trabajando en nuestra expansión internacional para que más personas puedan
+                        disfrutar de lo que hacemos con pasión.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Productos destacados -->
+        <section class="featured-products" id="beers">
+            <h2>Nuestras <span class="important">Cervezas</span> Destacadas</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="img/cervezas/IPA.png" alt="IPA">
+                    <h3>IPA</h3>
+                    <p>Una explosión de lúpulo y aroma cítrico, perfecta para los amantes de sabores intensos.</p>
+                </div>
+                <div class="product-card">
+                    <img src="img/cervezas/Stout.png" alt="Stout">
+                    <h3>Stout</h3>
+                    <p>Cerveza oscura, cremosa y con notas a café y chocolate. Ideal para paladares exigentes.</p>
+                </div>
+                <div class="product-card">
+                    <img src="img/cervezas/GoldenAle.png" alt="Golden Ale">
+                    <h3>Golden Ale</h3>
+                    <p>Refrescante, suave y dorada. Una cerveza para disfrutar en cualquier ocasión.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cursos -->
+        <section class="cursos" id="cursos">
+            <h2>Aprendé con nuestros <span class="important">Cursos</span></h2>
+            <div class="cursosContainer">
+                <div>
+                    <p>En nuestra cervecería no solo elaboramos cerveza, también compartimos
+                        nuestra pasión. Ofrecemos capacitaciones y un curso completo para quienes deseen iniciarse en
+                        el mundo de la cerveza artesanal. Aprendé desde las bases hasta técnicas avanzadas de
+                        elaboración, de la mano de cerveceros con experiencia.</p>
+                    <ul class="course-list">
+                        <li>Curso de elaboración artesanal</li>
+                        <li>Catas y maridajes</li>
+                        <li>Visitas guiadas a la fábrica</li>
+                        <li>Charlas con maestros cerveceros</li>
+                    </ul>
+                    <a href="#" class="btn-secondary">Inscribite ahora</a>
+                </div>
+                <img class="img" src="img/cursos.png" alt="Cursos de cerveza">
+            </div>
+        </section>
+
+        <!-- Locales -->
+        <section class="locales" id="locales">
+            <h2>Encontrá tu <span class="important">Cerberus</span> más cercano</h2>
+            <div class="locales-grid">
+                <div class="local-card">
+                    <img src="img/locales/local1.png" alt="Local Montevideo">
+                    <h3>Montevideo</h3>
+                    <p>Calle Juan Paullier, Manzana 112, Solar 7</p>
+                </div>
+                <div class="local-card">
+                    <img src="img/locales/local1.png" alt="Local Punta del Este">
+                    <h3>Punta del Este</h3>
+                    <p>Av. Gorlero 1234</p>
+                </div>
+                <div class="local-card">
+                    <img src="img/locales/local1.png" alt="Local Colonia">
+                    <h3>Colonia</h3>
+                    <p>Rambla Costanera 567</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonios -->
+        <section class="testimonios" id="testimonios">
+            <h2>Lo que dicen nuestros <span class="important">clientes</span></h2>
+            <div class="testimonios-grid">
+                <div class="testimonio-card">
+                    <p>"La mejor cerveza artesanal que probé en Uruguay. ¡Recomiendo la IPA!"</p>
+                    <span>- Martín, Montevideo</span>
+                </div>
+                <div class="testimonio-card">
+                    <p>"El ambiente en el local de Punta del Este es increíble y la atención excelente."</p>
+                    <span>- Lucía, Maldonado</span>
+                </div>
+                <div class="testimonio-card">
+                    <p>"Aprendí muchísimo en el curso de elaboración. ¡Ahora hago mi propia cerveza!"</p>
+                    <span>- Diego, Colonia</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+            <h2>¿Tenés alguna consulta? <span class="important">Contactanos</span></h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit" class="btn-secondary">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-1">
+            <p>Calle <span class="important">Juan Paullier</span>, Manzana <span class="important">112</span>, Solar
+                <span class="important">7</span>, Montevideo, Uruguay. cerberus@info.com.uy</p>
+            <p>Todos los derechos reservados <span class="important">©</span></p>
+        </div>
+        <div class="footer-2">
+            <p>Powered by <span>Algoryn</span></p>
+            <div class="redes">
+                <p>Seguinos</p>
+                <img src="img/instagram.svg" alt="Instagram">
+                <img src="img/facebook.svg" alt="Facebook">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let counter = 1;
+        const totalSlides = 3;
+        setInterval(() => {
+            counter++;
+            if (counter > totalSlides) {
+                counter = 1;
+            }
+            document.getElementById('radio' + counter).checked = true;
+        }, 3000);
+    </script>
+    <script src="js/menu.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/isLogedHandler.js"></script>
+</body>
+
+</html>

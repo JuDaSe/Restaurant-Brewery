@@ -1,0 +1,97 @@
+.dish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--color-secundario);
+    margin: 10px;
+}
+
+.dishMasterContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.dishImage {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.dishTextContainer {
+    width: fit-content;
+}
+
+.dishName {
+    font-weight:  bolder;
+    font-size: x-large;
+}
+
+.dishDescription {
+    color: rgb(226, 219, 219);
+    font-size: large;
+    font-weight: 600;
+    
+}
+
+.calification {
+    width: fit-content;
+    color: gold;
+}
+
+.dishButtonContainer {
+    gap: 10px;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reserva{
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: orange;
+}
+
+.reserva:hover{
+    scale: 1.1;
+}
+
+.reserva:active{
+    scale: .98;
+}
+
+@media (min-width: 758px) {
+
+
+    .dish {
+        max-width: 70%;
+    }
+    .dishMasterContainer{
+        flex-direction: row;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .dish {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .dish {
+        max-width: 50%;
+    }
+}
